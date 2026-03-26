@@ -55,9 +55,6 @@ def main() -> None:
 	st.subheader("Prediction")
 	st.metric("Cancer probability", f"{prob*100:.1f}%")
 
-	st.caption(
-		"This tool is not a medical device and is not intended for diagnosis or treatment. Consult qualified professionals for clinical decisions."
-	)
 
 
 if __name__ == "__main__":
